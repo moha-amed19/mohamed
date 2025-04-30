@@ -1,0 +1,112 @@
+
+/* link to home in bottom nav */
+
+header .nav-button a {
+  font-size: 20px;
+}
+
+/* background section one in provide padge */
+
+.sec1 {
+  background-image: url(../img/providerback.png), url(../img/providerback2.png);
+}
+
+/* Start filtter ection in provide padge */
+
+/* Center website */
+
+.sec3 .main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.sec3 #myBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.sec3 #myBtnContainer .btn {
+  margin-left: 10px;
+}
+
+.sec3 h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+
+.sec3 .row,
+.sec3 .row>.sec3 .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+
+.sec3 .column {
+  width: 33.33%;
+  display: none;
+  float: left;
+  /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+
+.sec3 .row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* Content */
+
+.sec3 .content {
+  background-color: white;
+  padding: 10px;
+}
+
+.sec3 .content h4,
+.sec3 .content i,
+.sec3 .content span,
+.sec3 .content h6 {
+  font-size: 17px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.sec3 .content p {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+/* The "show" class is added to the filtered elements */
+
+.sec3 .show {
+  display: block;
+}
+
+/* Style the buttons */
+
+.sec3 .btn {
+  background-color: white;
+  outline: none;
+  padding: 12px 16px;
+  cursor: pointer;
+  border: none;
+}
+
+/* Add a grey background color on mouse-over */
+
+.sec3 .btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+
+.sec3 .btn.active {
+  color: white;
+  background-color: #666;
+}
+
+/* End filtter ection in provide padge */
+

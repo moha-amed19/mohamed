@@ -1,0 +1,95 @@
+
+/* link to back padge in top steper padge  */
+
+.steper-padge a{
+    width: 17%;
+    color: #5D5D5F;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.steper-padge a i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.steper-padge a:hover{
+    color: #007bffb2;
+    transition: .3s ease-in-out;
+}
+
+/* center steper2 padge */
+
+.steper-padge .center-steper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* image profile i section left */
+
+.steper-padge .center-steper img{
+    width: 250px;
+    background-color: #F1FAF5;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+/* link to upload image  */
+
+.steper-padge .center-steper .button-steper-center{
+    width: 170px;
+    color: white;
+    background-color: #457673;
+    font-weight: 100;
+    padding: 10px 0;
+    margin-left: 15px;
+    transition: .3s;
+}
+
+.steper-padge .center-steper .button-steper-center:hover{
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #457673;
+    transition: .3s ease-in-out;
+}
+
+/* button in tahe bottom steper2  */
+
+.steper-padge .button-steper{
+    margin-top: 25px;
+}
+
+/* left button in bottom steper2 padge  */
+
+.steper-padge .button-steper .button-skip{
+    width: 100%;
+    color: #AC3F4D;
+    background-color: #FEEFE6;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 9px;
+}
+
+/* right button in bottom steper2 padge  */
+
+.steper-padge .button-steper  .button-continue 
+{
+    width: 100%;
+    color: white;
+    background-color: #CE5C60;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px;
+    border: none;
+    border-radius: 6px;
+}
+
+.steper-padge .button-steper a{
+    width: 100%;
+}

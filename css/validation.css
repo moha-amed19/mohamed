@@ -1,0 +1,10 @@
+
+/* input code in validation padge  */
+
+.steper-padge form .center-validation input{
+    width: 100%;
+    height: 48px;
+    border: 1px solid #a8d8de94;
+    border-radius: 6px;
+
+}

@@ -1,0 +1,18 @@
+
+/* cente steper3  */
+
+.steper-padge form .center-steper3{
+    margin-top: 25px;
+}
+
+.steper-padge form .center-steper3 input{
+    width: 18px;
+    height: 18px;
+}
+
+.steper-padge form .center-steper3 label{
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 5PX;
+    margin-bottom: 5PX;
+}

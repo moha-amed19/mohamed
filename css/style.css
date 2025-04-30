@@ -1,0 +1,707 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Start header section in home padge */
+
+header .nav-top {
+    background-color: #ce5c60;
+}
+
+/* icon social in nav top left  */
+
+header .nav-top .nav-icon {
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+}
+
+header .nav-top .nav-icon li {
+    margin-right: 6px;
+    background-color: white;
+    border-radius: 53px;
+    font-size: 15px;
+    padding: 2px 6px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* text in nav top center  */
+
+header .nav-top .nav-text {
+    margin-top: 15px;
+}
+
+header .nav-top .nav-text p {
+    display: inline;
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+/* drop down translation in nav top right  */
+
+header .nav-top .dropdown .btn {
+
+    color: white;
+    margin-top: 10px;
+}
+
+/* link in the dropdown */
+
+header .nav-top .dropdown .dropdown-menu li .dropdown-item {
+    color: #ce5c60;
+}
+
+/* iteams link in navbar center  */
+
+header .navbar .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    color: rgba(0, 0, 0, .5);
+    transition: .3s;
+    justify-content: space-between;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(0, 0, 0, .7);
+    transition: .3s ease-in-out;
+}
+
+header .navbar .navbar-nav .nav-item .active {
+    color: black;
+}
+
+/* input search in nav center  */
+
+header .navbar form input {
+    width: 225px;
+    background-color: #e5f6ec;
+    border-radius: 20px;
+    height: 47px;
+}
+
+/* link to download in nav center  */
+
+header .navbar form a {
+    text-decoration: none;
+    background-color: #ce5c60;
+    color: white;
+    align-self: center;
+    padding: 10PX 20PX;
+    font-size: 17PX;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+/* link to home in nav bottom left  */
+
+header .nav-button .link-lift-button-nav {
+    text-decoration: none;
+    color: #2b5d5f;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+/* link to creat an acount in navbottom */
+
+header .bton-nav .button-creat-nav {
+    background-color: #ce5c60;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    transition: all .8s ease;
+    font-size: 20px;
+}
+
+/* link to login in nav bottom */
+
+header .bton-nav .button-login-nav {
+    background-color: #feefe6;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    transition: all .8s ease;
+    margin-left: 10px;
+
+}
+
+/* End header section in home padge */
+
+/* start section 1 in home padge  */
+
+.sec1 {
+    background-image: url(../img/back-header.png), url(../img/back-header-back.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 700px;
+    margin-top: 15px;
+}
+
+/* heading in section 1 in home padge */
+
+.sec1 .sec1-text {
+    position: relative;
+    left: 4%;
+    top: 90%;
+    width: 95%;
+}
+
+.sec1 .sec1-text h1 {
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+}
+
+.sec1 .sec1-text h6 {
+    font-size: 33px;
+    line-height: 1.5;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+/* limk to start bottom section 1 */
+
+.sec1 .sec1-text a {
+    text-decoration: none;
+    color: white;
+    background-color: #ce5c60;
+    padding: 20px 40px;
+    transition: .5s;
+
+
+}
+
+.sec1 .sec1-text a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    transition: .6s ease-in-out;
+}
+
+/* end section 1 in home padge  */
+
+/* Start carousel 1 in section 2 in home padge */
+
+.sec2 {
+    margin-top: 35px;
+}
+
+
+.sec2 .owl-carousel .item .card {
+    border: none;
+    margin-right: 15PX;
+    cursor: pointer;
+}
+
+/* image in carousel 1 in section 2  */
+
+.sec2 .owl-carousel .item .card img {
+    height: 280px;
+}
+
+/* text bottom image in carousel 1 */
+
+.sec2 .owl-carousel .item .card .card-body h4 {
+
+    background-color: #ffac8d73;
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    padding: 17px 0;
+    border-radius: 25px;
+    transition: .3s;
+}
+
+.sec2 .owl-carousel .item .card:hover .card-body h4 {
+    color: #e47d80;
+    transition: .3s ease-in-out;
+}
+
+/* End carousel 1 in section 2 in home padge */
+
+/* Start section 3 "carousel 2" */
+
+/* image in carousel 2 in section 3 */
+
+.carousel2 .owl-carousel .card img {
+    height: 325px;
+}
+
+/* heading in carousel2 in section 3 */
+
+.carousel2 .services,
+.carousel3 .services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.carousel2 .services h3,
+.carousel3 .services h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.carousel2 .services a,
+.carousel3 .services a {
+    font-size: 17px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.carousel2 .services a:hover,
+.carousel3 .services a:hover {
+    color: #007bffd7;
+}
+
+/* text bottom image in carousel 2 */
+
+.carousel2 .text-buton-img {
+    width: 92%;
+    background-color: #CCE3D9;
+    position: absolute;
+    right: 0;
+    left: 4%;
+    top: 80%;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.carousel2 .text-buton-img h3 {
+    font-size: 20px;
+}
+
+/* End section 3 "carousel 2" */
+
+/* Start carouse 2 section in provide padge  */
+
+/* image carousel 2 section  */
+
+.carousel3 .owl-carousel .card img {
+    width: 100%;
+    height: 200px;
+}
+
+/* text bottom image in carousel 2 section  */
+
+.carousel3 .owl-carousel .card .information-provide {
+    padding: 30px;
+    box-shadow: 3px 0 5px rgba(148, 163, 184, 0.20);
+}
+
+.carousel3 .owl-carousel .card .information-provide h3 {
+    font-size: 20px;
+}
+
+.carousel3 .owl-carousel .card .information-provide p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.carousel3 .owl-carousel .card .information-provide i {
+    color: #CD9902;
+    font-size: 23px;
+}
+
+.carousel3 .owl-carousel .card .information-provide span {
+    color: #007bff;
+}
+
+.carousel3 .owl-carousel .card .information-provide a {
+    width: 90%;
+    display: block;
+    justify-self: center;
+    text-align: center;
+    color: #6c757d;
+    font-weight: 400;
+    margin-top: 30px;
+    padding: 7px 0;
+    text-decoration: none;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    transition: .3s;
+    box-shadow: 0px 2.29668px 4.59336px rgba(148, 163, 184, 0.15);
+}
+
+.carousel3 .owl-carousel .card .information-provide a:hover {
+    color: white;
+    background-color: #6c757d;
+    transition: .3s ease-in-out;
+}
+
+/* End carouse 2 section in provide padge  */
+
+/* Start section 5 in home padge */
+.sec5 {
+    margin-top: 35px;
+}
+
+/* heading in left section5 in home padge */
+
+.sec5 h2 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 1.5px;
+}
+
+/* pragraph in left section 5 in home padge */
+
+.sec5 h6 {
+    font-size: 30px;
+    margin-top: 25px;
+    line-height: 40px;
+    letter-spacing: 1.3px;
+}
+
+/* link in left section 5 in home padge */
+
+.sec5 .join-button {
+    background-color: #ce5c60;
+    color: white;
+    font-size: 25px;
+    padding: 5px 8px;
+    width: 250px;
+    border-radius: 12px;
+    margin-top: 25px;
+    transition: .3s;
+}
+
+.sec5 a:hover {
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+/* right section 5  */
+
+.sec5 .card {
+    border: none;
+}
+
+/* image in right section 5 */
+
+.sec5 .card .img-join {
+    margin-top: 20px;
+}
+
+.sec5 .card .img-join img {
+    width: 100%;
+}
+
+/* text bottom image in right section 5 in home padge */
+
+.sec5 .card .text-bottom-img {
+    position: absolute;
+    top: 81%;
+    left: 0;
+    width: 100%;
+    background-color: #cce3d9de;
+}
+
+.sec5 .card .text-bottom-img h3{
+    font-size: 17px;
+}
+
+/* End section 5 in home padge */
+
+/* Start Newsletter section 6 in home padge */
+
+.sec6{
+    margin-top: 50px;
+}
+
+/* heading newsletter section 6 in home padge */
+
+.sec6 h2{
+    font-size: 45px;
+    letter-spacing: 1.5px;
+}
+
+/* paragroh in newslatter section 6 in home padge */
+
+.sec6 p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 18px;
+    letter-spacing: 1.3px;
+}
+
+/* form in newsletter section 6 in home padge */
+
+/* mail input  */
+
+.sec6 form .mail{
+
+    position: relative;
+    display: inline;
+}
+
+.sec6 form .mail .email{
+    background-color: #e5f6ec;
+    font-size: 20px;
+    padding: 10px 40px;
+    border: none;
+    width: 420px;
+    border-radius: 10px;
+    position: relative;
+    text-indent: 10px;
+}
+
+.sec6 form .mail .email::placeholder{
+    font-weight: 100;
+}
+
+/* icon in mail input  */
+
+.sec6 form .mail i{
+    font-size: 24px;
+    position: absolute;
+    z-index: 99;
+    top: -2px;
+    left: 18px;
+}
+
+/* submit in newsatter section 6 */
+
+.sec6 form .submit-newslatter{
+
+    border: none;
+    padding: 10px 18px;
+    border: none;
+    padding: 10px 18px;
+    width: 110px;
+    background-color: #ce5c60;
+    color: white;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.sec6 form .submit-newslatter:hover{
+    color:black;
+}
+
+
+/* bottom newslatter section 6 */
+
+.sec6 .bottom-newslatter{
+    margin: 70px 135px 0px 135px;
+    color: white;
+    background-image: url(../img/Rectangle\ 20.png), url(../img/Rectangle\ 19.png);
+    padding: 50px;
+    height: 540px;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+/* hadding bottom newslatter section 6 */
+
+.sec6 .bottom-newslatter h2{
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.sec6 .bottom-newslatter p{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+/* links download bottom newslatter section 6 */
+
+.sec6 .bottom-newslatter .link-bottom a{
+margin-top: 25px;
+padding: 8px 40px;
+font-weight: 600;
+letter-spacing: 1px;
+font-size: 18px;
+
+}
+
+/* icon in download links */
+
+.sec6 .bottom-newslatter .link-bottom a i{
+    margin-right: 10px;
+}
+
+/* ios button  */
+
+.sec6 .bottom-newslatter .ios-button{
+    color: white;
+    border: 1px solid white;
+    transition: all 1s;
+}
+
+.sec6 .bottom-newslatter .ios-button:hover{
+    background-color: #8b283c;
+    transition: 1s ease-in-out;
+}
+
+/* androif button  */
+
+.sec6 .bottom-newslatter .android-button{
+    
+    background-color: #fddbcd;
+    color: #8b283c;
+    margin-left: 10px;
+    transition: all 1s;
+}
+
+.sec6 .bottom-newslatter .android-button:hover{
+    background-color: white;
+    transition: 1s ease-in-out;
+}
+
+/* End Newsletter section 6 in home padge */
+
+/* Start section2 from about padge  */
+
+/* header from section2 and section4  from about padge */
+.about-hanna h3{
+    font-size: 35px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+/* text card from section2 about padge */
+
+.about-hanna .card {
+    height: 280px;
+    color: white;
+    padding: 30px 0 0 25px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 35px;
+}
+
+.about-hanna .card h2 {
+    font-size: 35px;
+}
+
+.about-hanna .card p {
+    font-size: 23px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+/* background from objectives */
+
+.about-hanna .vision1 {
+    background-image: url(../img/vission-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* backgroud from vision  */
+
+.about-hanna .vision2 {
+    background-image: url(../img/vission-bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* background from mision  */
+
+.about-hanna .vision3 {
+    background-image: url(../img/vission-bg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* End section2 from about padge  */
+
+
+/* Start footer in home padge */
+
+footer {
+    margin-top: 50px;
+}
+
+/* paragraph in center colom 1 in footer  */
+
+footer .pragraph-top {
+    color: #212529;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+footer .contact-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+/* icon in contact us in bottom colom 1 in footr  */
+
+footer .contact-footer i {
+    background-color: #FEEFE6;
+    color: #d8787b;
+    padding: 15px 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* text in contact us in bottom colom 1 in footr  */
+
+footer .contact-footer .information-footer h5 {
+    margin: 0;
+    color: #212529;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+footer .contact-footer .information-footer span {
+    color: #CE5C60;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+/* colom 2,3,4 */
+
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+/* heading in colom 2,3,4 */
+
+footer h4 {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+/* unorder list iteams in colom 2,3,4 */
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* links in unorder list  */
+
+footer ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 100;
+    line-height: 1.9;
+    font-size: 17px;
+}
+
+/* copy right in footer  */
+
+footer .copy-right {
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* End footer in home padge */

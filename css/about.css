@@ -1,0 +1,146 @@
+
+/* Start section1 from about padge  */
+
+.sec1 {
+    background-image: url(../img/back-header.png), url(../img/about.png);
+}
+
+/* End section1 from about padge  */
+
+
+
+
+
+
+/* start section3 rom about padge */
+
+.sec3 {
+    height: 700px;
+    background-image: url(../img/Rectangle\ 34.png), url(../img/Rectangle\ 33.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}
+
+/* End section3 rom about padge */
+
+/* Start section4 from about padge "the team" */
+
+/* header from and section4  from about padge */
+
+
+.sec4 {
+    margin-top: 50px;
+}
+
+.sec4 h3 {
+    font-size: 35px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.sec4 .item .card {
+    border: none;
+}
+
+/* image from carousel item team for about padge  */
+
+.sec4 .item .card img {
+    height: 710px;
+}
+
+/* information from carousel item team for about padge */
+
+.sec4 .item .card .card-body {
+    width: 100%;
+    background: linear-gradient(#ce5c60b8, #ff85678a);
+    position: absolute;
+    top: 58%;
+    border-radius: 30px;
+}
+
+/* user information from carousal item team  */
+
+.sec4 .item .card .card-body .user {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sec4 .item .card .card-body .user .information {
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.sec4 .item .card .card-body .user .information h5 {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.sec4 .item .card .card-body .user .information span {
+    font-size: 17px;
+}
+
+
+.sec4 .item .card .card-body .user i {
+    background-color: #FEEFE6;
+    color: #648D87;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+
+/* End section4 from about padge "the team" */
+
+/* Start sectio5 games from about padge */
+
+.sec5 {
+    margin-top: 50px;
+    
+}
+
+.sec5 .card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+/* image game from about padge */
+
+.sec5 .card .image-game {
+    width: 50%;
+}
+
+.sec5 .card .image-game img {
+    width: 100%;
+    height: 180px;
+}
+
+/* text from game for about padge */
+
+.sec5 .card .text-game {
+    width: 50%;
+    color: white;
+    background-image: url(../img/Rectangle\ 41.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec5 .card .text-game .information-game {
+    margin-top: 40px;
+}
+
+.sec5 .card .text-game .information-game h5 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.sec5 .card .text-game .information-game p {
+    margin-bottom: 8px;
+}
+
+/* End sectio5 games from about padge */

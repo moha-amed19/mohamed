@@ -1,0 +1,203 @@
+/* start section 1 in services padg  */
+
+.section1 {
+    margin-top: 40px;
+}
+
+/* images block in colom 1 in information section 1 from services padge   */
+
+.section1 .img-top img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 3px;
+}
+
+/* image in colom 2 in information section 1 in services padge */
+
+.section1 .img-center,
+.section1 .img-center img {
+    width: 100%;
+    height: 100%;
+}
+
+/* heading in cilom 3 and colom 4 in information section  */
+
+.section1 h2 {
+    font-size: 33px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+/* icon star in colom 3 in information section  */
+
+.section1 i {
+    color: #CD9902;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/* information prand in colom 3 in information section  */
+
+.section1 h5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* links in colom 3 in information section  */
+
+.section1 a {
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #457673;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+/* button in bottom colom 3 information section  */
+
+.section1 button {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 5px 20px;
+    margin-right: -5px;
+    margin-top: 15px;
+}
+
+/* button left in colom 3 */
+
+.section1 .buton-left,
+.section1 .buton-left i {
+    color: white;
+    background-color: #457673;
+    font-size: 16px;
+    margin-right: 6px;
+    margin-top: 25px;
+
+}
+
+.section1 .buton-left:hover,
+.section1 .buton-left:hover i {
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .3s ease-in-out;
+}
+
+/* button right in colom 3 */
+
+.section1 .buton-right i {
+    color: black;
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.section1 .buton-right:hover,
+.section1 .buton-right:hover i {
+    color: white;
+    background-color: #457673;
+    transition: .3s ease-in-out;
+}
+
+/* pragraph in bottom colom 3 */
+
+.section1 .card {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1, 7;
+    margin-top: 15px;
+    border: none;
+}
+
+/* colom 4 in inforation section  */
+
+.section1 .sec1-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* telegram icon in colom 4 in information section  */
+
+.section1 .telegram {
+    color: white;
+    background: linear-gradient(180deg, #2AABEE 0%, #229ED9 99.26%);
+    text-align: center;
+    font-size: 33px;
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 50px;
+}
+
+/* whatsapp icon in colom 4 in information section  */
+
+.section1 .whatsapp {
+    color: white;
+    background: linear-gradient(0deg, #20B038 0%, #60D66A 100%);
+    text-align: center;
+    font-size: 33px;
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 50px;
+}
+
+/* instagram icon in colom 4 information section  */
+
+.section1 .insta {
+    color: white;
+    background: linear-gradient(45deg, #FFD522 0%, #F1000B 49.74%, #B900B3 100%);
+    text-align: center;
+    font-size: 33px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+/* span between icn social  */
+
+.section1 h6 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/* image bottom colom 4 in information sectin  */
+
+.section1 .imge-butom {
+    display: block;
+}
+
+.section1 .sec1-right img {
+    width: 100%;
+}
+
+/* End section 1 in services padg  */
+
+/* Start section 3 "carousel 2" */
+
+/* image in carousel 2 in section 3 */
+
+.sec3 .owl-carousel .card img {
+    height: 325px;
+}
+
+/* text bottom image in carousel 2 */
+
+.sec3 .text-buton-img {
+    width: 92%;
+    background-color: #CCE3D9;
+    position: absolute;
+    right: 0;
+    left: 4%;
+    top: 80%;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.sec3 .text-buton-img h3 {
+    font-size: 20px;
+}
+
+/* End section 3 "carousel 2" */
